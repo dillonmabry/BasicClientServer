@@ -15,8 +15,6 @@ import java.util.*;
  */
 public class Client {
 
-    static String PLAYER_ONE_NAME;
-    static String PLAYER_TWO_NAME;
     private Socket clientSocket;
     private PrintStream out;
     private BufferedReader in;
